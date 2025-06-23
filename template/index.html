@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	
+  	
+  	<link rel="stylesheet"  href="../static/css/index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=SF Pro Text:wght@600&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" />
+	
+</head>
+<body>
+  	
+  	<div class="halaman-utama">
+    		<div class="image">
+      			<div class="image-child">
+      			</div>
+      			<img class="image-item" alt="" src="../static/img/Ellipse 35.png">
+      			
+    		</div>
+    		<div class="content">
+      			<div class="indetify-your-learning">Indetify your Learning Style with Felder Silverman Model</div>
+    		</div>
+    		<img class="halaman-utama-child" alt="" src="../static/img/Ellipse 34.png">
+    		
+			<div class="home">Home</div>
+    		<div class="button" id="nextTest"> 
+      			<div class="label">Mulai Assesmen</div>
+					</div>
+					<div class="button1" id="nextPageButton"> 
+						<div class="label1">Log in </div> 
+						</div>
+					</div>
+					<script>
+						document.addEventListener('DOMContentLoaded', (event) => {
+							const button = document.getElementById('nextTest');
+							
+							button.addEventListener('click', () => {
+								// Mengarahkan ke halaman berikutnya
+								window.location.href = '/test' ; // Ganti 'nextpage.html' dengan URL halaman yang dituju
+							});
+						});
+
+						document.addEventListener('DOMContentLoaded', (event) => {
+							const button = document.getElementById('nextPageButton');
+							
+							button.addEventListener('click', () => {
+								// Mengarahkan ke halaman berikutnya
+								window.location.href = '/login'; // Ganti 'nextpage.html' dengan URL halaman yang dituju
+							
+							});
+						});
+						
+					</script>
+					
+		</body>
+	  </html>
+			

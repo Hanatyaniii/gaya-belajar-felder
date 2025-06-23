@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    max-inline-size: 800px; /* Set a max width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding around the container */
+}
+
+/* Table Styles */
+.table-data {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-data .order .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-data table {
+    inline-size: 100%;
+    border-collapse: collapse;
+}
+
+.table-data th, .table-data td {
+    padding: 12px;
+    text-align: start;
+    border-block-end: 1px solid #ddd;
+}
+
+.table-data th {
+    background-color: #f2f2f2;
+}
+
+.table-data .action-buttons button {
+    margin: 0 5px;
+}
+
+
+
+/* Button Styles */
+.action-buttons .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto; /* Center the modal vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #888;
+    inline-size: 90%; /* Set the modal width to a percentage of the viewport width */
+    max-inline-size: 600px; /* Limit the maximum width of the modal */
+    border-radius: 8px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: inline-end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Header */
+.modal h2 {
+    margin-block-start: 0;
+    font-size: 18px;
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-block-end: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-block-end: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    inline-size: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .modal-content {
+        inline-size: 95%; /* Adjust the width on smaller screens */
+        margin: 10% auto; /* Center the modal on smaller screens */
+    }
+}

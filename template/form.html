@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="../static/css/form.css" />
+    <title>Learning Style Questionnaire</title>
+</head>
+<body>
+    <h1>Learning Style Questionnaire</h1>
+    
+    <form action="/submit" method="POST">
+        {% for question in questions %}
+        {% for q_key, q_data in question.items() %}
+        <div>
+            <h3>{{ q_data.text }}</h3>
+            <input type="radio" id="q{{ q_key }}_0" name="responses_{{ q_key }}" value="0" required>
+            <label for="q{{ q_key }}_0">{{ q_data.option_0 }}</label><br>
+            <input type="radio" id="q{{ q_key }}_1" name="responses_{{ q_key }}" value="1" required>
+            <label for="q{{ q_key }}_1">{{ q_data.option_1 }}</label><br>
+        </div>
+        {% endfor %}
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

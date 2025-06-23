@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../static/css/admin.css">
+    <link rel="stylesheet" href="../static/css/adduser.css">
+    <title>Manage User</title>
+</head>
+<body>
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <a href="#" class="brand">
+            <i class='bx bxs-user'></i>
+            <span class="text">Admin</span>
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/admin_dashboard">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/manage_user">
+                    <i class='bx bxs-user'></i>
+                    <span class="text">Kelola Dosen</span>
+                </a>
+            </li>
+            <li>
+                <a href="/identification_report">
+                    <i class='bx bxs-file'></i>
+                    <span class="text">Hasil Assesmen Mahasiswa</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="/index" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+    <!-- CONTENT -->
+    <section id="content">
+        <!-- NAVBAR -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+            </form>
+            <a href="#" class="profile">
+                <img src="../static/img/admin.png" alt="Admin Profile">
+            </a>
+        </nav>
+        <!-- NAVBAR -->
+
+        <!-- MAIN -->
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Kelola Dosen</h1>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a class="active" href="/manage_user">Kelola Dosen</a>
+                        </li>
+                        <li><i class='bx bx-chevron-right'></i></li>
+                        <li>
+                            <a href="/admin_dashboard">Home</a>
+                        </li>
+                        <li>
+                            <a href="/identification_report">Hasil Assesment Mahasiswa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="table-data">
+                <div class="order">
+                    <div class="head">
+                        <h3>Dosen</h3>
+                        <button class="button" id="addUserBtn">Tambah Dosen</button>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>id</th>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>Password</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="userTableBody">
+                            {% for user in users %}
+                            <tr data-id="{{ user.id }}">
+                                <td>{{ user.id }}</td>
+                                <td>{{ user.username }}</td>
+                                <td>{{ user.email }}</td>
+                                <td>{{ user.password }}</td>
+                                <td>
+                                    <div class="action-buttons">
+                                        <button class="btn btn-primary edit-btn" data-id="{{ user.id }}" data-username="{{ user.username }}" data-email="{{ user.email }}" data-password="{{ user.password }}">
+                                            <i class='bx bx-edit-alt'></i>
+                                        </button>
+                                        <button class="btn btn-danger delete-btn" data-id="{{ user.id }}">
+                                            <i class='bx bx-trash'></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+           <!-- Modal for Adding New User -->
+<div id="addUserModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="addUserForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Edit User Modal -->
+<div id="editUserModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="editUserForm">
+            <input type="hidden" id="editUserId">
+            <div class="form-group">
+                <label for="editUsername">Username:</label>
+                <input type="text" id="editUsername" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="editEmail">Email:</label>
+                <input type="email" id="editEmail" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="editPassword">Password:</label>
+                <input type="password" id="editPassword" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">simpan</button>
+        </form>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div id="deleteUserModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Anda yakin akan menghapus akun ini?</p>
+        <button id="confirmDelete" class="btn btn-danger">Hapus</button>
+        <button id="cancelDelete" class="btn btn-secondary">Batal</button>
+    </div>
+</div>
+
+    <script src="../static/js/user.js"></script>
+</body>
+</html>

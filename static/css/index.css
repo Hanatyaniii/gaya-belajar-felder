@@ -1,0 +1,149 @@
+.image-child {
+    position: absolute;
+    inset-block-start: 103.31px;
+    inset-inline-start: 0px;
+    border-radius: 240px;
+    border: 7px solid var(--gradient-01);
+    box-sizing: border-box;
+    inline-size: 144.3px;
+    block-size: 453px;
+    transform:  rotate(-45.7deg);
+    transform-origin: 0 0;
+}
+.image-item {
+    position: absolute;
+    inset-block-start: 207px;
+    inset-inline-start: 208px;
+    border-radius: 50%;
+    inline-size: 194px;
+    block-size: 189px;
+    object-fit: cover;
+}
+.image {
+    position: absolute;
+    inset-block-start: 122px;
+    inset-inline-start: 681px;
+    inline-size: 417px;
+    block-size: 427.7px;
+}
+.indetify-your-learning {
+    position: absolute;
+    inset-block-start: 0px;
+    inset-inline-start: 0px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    inline-size: 614px;
+    block-size: 314px;
+}
+.content {
+    position: absolute;
+    inset-block-start: 156px;
+    inset-inline-start: 89px;
+    inline-size: 614px;
+    block-size: 314px;
+    text-align: start;
+}
+.halaman-utama-child {
+    position: absolute;
+    inset-block-start: 122px;
+    inset-inline-start: 667px;
+    border-radius: 50%;
+    inline-size: 199px;
+    block-size: 191px;
+    object-fit: cover;
+}
+.home {
+    inline-size: 70px;
+    position: relative;
+    font-size: 24px;
+    letter-spacing: -0.41px;
+    line-height: 60px;
+    font-weight: 960px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    inset-block-start: 50px;
+    inset-inline-start: 850px;
+    cursor: pointer;
+}
+.label {
+    position: relative;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.button {
+    position: absolute;
+    inset-block-start: 526px;
+    inset-inline-start: 89px;
+    border-radius: 10px;
+    background-color: var(--default-systemblue-light);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 20px;
+    font-size: var(--default-bold-body-size);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.label1 {
+    position: relative;
+    letter-spacing: -0.41px;
+    line-height: 35px;
+    font-weight: 600;
+    }
+    .button1 {
+    position: absolute;
+    inset-block-start: 60px;
+    inset-inline-start: 960px;
+    border-radius: 10px;
+    background-color: var(--default-systemblue-light);
+    inline-size: 133px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-smi) var(--padding-xl);
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    }
+.halaman-utama {
+    inline-size: 100%;
+    position: relative;
+    background-color: #05051f;
+    block-size: 700px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 64px;
+    color: var(--sky-white);
+    font-family: var(--font-inknut-antiqua);
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --regular-none-medium: Inter;
+    --default-bold-body: 'SF Pro Text';
+    --font-inknut-antiqua: 'Inknut Antiqua';
+    
+    /* font sizes */
+    --regular-none-medium-size: 16px;
+    --default-bold-body-size: 17px;
+    
+    /* Colors */
+    --primary-base: #6b4eff;
+    --sky-white: #fff;
+    --default-systemblue-light: #007aff;
+    --gradient-01: #6ddcff;
+    
+}

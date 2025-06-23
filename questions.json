@@ -1,0 +1,310 @@
+[
+    {
+        "q1": {
+            "text": "Saya memahami materi pembelajaran dengan lebih baik setelah saya:",
+            "option_0": "Mempraktikkan materi tersebut secara langsung",
+            "option_1": "Berpikir dengan cermat, hati-hati, dan memperhatikan detail-detail kecil"
+        }
+    },
+    {
+        "q2": {
+            "text": "Saya cenderung dipandang sebagai orang yang:",
+            "option_0": "Realistis",
+            "option_1": "Kreatif"
+        }
+    },
+    {
+        "q3": {
+            "text": "Ketika saya memikirkan tentang apa yang saya lakukan kemarin, saya biasanya mendapatkan gambaran atau pemahaman tentang kegiatan tersebut dengan cara:",
+            "option_0": "Mengingat kegiatan kemarin melalui foto atau video yang saya ambil",
+            "option_1": "Mengingat kegiatan kemarin dengan memperhatikan setiap detail kecil, termasuk deskripsi tentang apa yang terjadi."
+        }
+    },
+    {
+        "q4": {
+            "text": "Saya cenderung memahami materi pembelajaran dengan:",
+            "option_0": "Fokus pada rincian dan aspek spesifik dari suatu materi pembelajaran",
+            "option_1": "Memahami bagaimana suatu topik atau sistem secara keseluruhan bekerja atau terstruktur"
+        }
+    },
+    {
+        "q5": {
+            "text": "Ketika saya belajar sesuatu yang baru, cara yang membantu saya memahami materi tersebut adalah dengan:",
+            "option_0": "Mendiskusikannya dengan orang lain atau menjelaskan konsep tersebut secara lisan",
+            "option_1": "Merenungkannya secara mendalam dan memikirkan berbagai aspek atau detailnya sendiri"
+        }
+    },
+    {
+        "q6": {
+            "text": "Jika saya menjadi guru, saya lebih suka mengajarkan materi pembelajaran yang:",
+            "option_0": "Berhubungan dengan fakta dan situasi kehidupan nyata",
+            "option_1": "Berhubungan dengan ide-ide dan teori"
+        }
+    },
+    {
+        "q7": {
+            "text": "Saya lebih suka mendapatkan informasi baru dalam bentuk:",
+            "option_0": "Gambar, diagram, grafik, atau peta",
+            "option_1": "Petunjuk tertulis atau informasi berupa kalimat"
+        }
+    },
+    {
+        "q8": {
+            "text": "Setelah saya memahami materi pembelajaran, saya biasanya merasa bahwa:",
+            "option_0": "Lebih mudah memahami keseluruhan materi setelah memahami detail dan bagian-bagian kecilnya terlebih dahulu",
+            "option_1": "Lebih mudah memahami detail atau bagian spesifik dari suatu materi setelah mendapatkan pemahaman yang jelas secara keseluruhan"
+        }
+    },
+    {
+        "q9": {
+            "text": "Ketika kelompok belajar menghadapi materi yang sulit, saya cenderung:",
+            "option_0": "Aktif berkontribusi dengan mengusulkan pemikiran atau pendekatan baru",
+            "option_1": "Mengamati dan memahami apa yang dikatakan orang lain sebelum memberikan kontribusi atau mengajukan ide"
+        }
+    },
+    {
+        "q10": {
+            "text": "Saya merasa lebih mudah memahami materi pembelajaran dalam:",
+            "option_0": "Mengingat dan menguasai informasi yang berbentuk fakta atau detail yang jelas",
+            "option_1": "Memahami ide-ide, prinsip-prinsip, atau teori-teori yang mendasari suatu materi"
+        }
+    },
+    {
+        "q11": {
+            "text": "Ketika membaca sebuah buku dengan banyak gambar dan grafik, saya cenderung:",
+            "option_0": "Memperhatikan gambar-gambar dan grafik dengan seksama",
+            "option_1": "Memfokuskan perhatian pada teks tertulis"
+        }
+    },
+    {
+        "q12": {
+            "text": "Ketika menyelesaikan soal matematika:",
+            "option_0": "Saya biasanya menggunakan cara saya sendiri untuk memecahkan soal tersebut langkah demi langkah",
+            "option_1": "Saya biasanya melihat penyelesaian soal matematika terlebih dahulu, lalu mencoba memahami langkah-langkahnya"
+        }
+    },
+    {
+        "q13": {
+            "text": "Di kelas yang saya ikuti:",
+            "option_0": "Saya selalu mengenal sebagian besar siswa",
+            "option_1": "Saya jarang mengenal sebagian besar siswa"
+        }
+    },
+    {
+        "q14": {
+            "text": "Dalam membaca buku non-fiksi, saya lebih suka:",
+            "option_0": "Sesuatu yang mengajarkan fakta-fakta baru atau menjelaskan tentang bagaimana melakukan sesuatu",
+            "option_1": "Sesuatu yang memberi ide-ide baru untuk dipikirkan"
+        }
+    },
+    {
+        "q15": {
+            "text": "Saya menyukai guru-guru yang:",
+            "option_0": "Menggunakan banyak diagram untuk menjelaskan materinya",
+            "option_1": "Menggunakan banyak kalimat untuk menjelaskan materinya"
+        }
+    },
+    {
+        "q16": {
+            "text": "Ketika saya menganalisis cerita atau novel:",
+            "option_0": "Saya lebih fokus pada berbagai konflik yang ada dalam cerita dan bagaimana konflik-konflik tersebut berinteraksi",
+            "option_1": "Saya terlebih dahulu mencatat tema utama dari novel setelah selesai membacanya, kemudian menganalisis konflik yang ada"
+        }
+    },
+    {
+        "q17": {
+            "text": "Ketika mengerjakan tugas, saya cenderung:",
+            "option_0": "Berfokus pada bagaimana menyelesaikan masalah secara praktis dan efisien",
+            "option_1": "Menganalisis detail penting dari masalah untuk memastikan saya memiliki pemahaman yang jelas sebelum mencari solusi"
+        }
+    },
+    {
+        "q18": {
+            "text": "Saya lebih suka pemahaman yang:",
+            "option_0": "Jelas dan konkret tentang suatu topik atau masalah",
+            "option_1": "Bersifat teoritis atau abstrak"
+        }
+    },
+    {
+        "q19": {
+            "text": "Saya dapat mengingat dengan baik:",
+            "option_0": "Hal-hal yang saya lihat",
+            "option_1": "Hal-hal yang saya dengar"
+        }
+    },
+    {
+        "q20": {
+            "text": "Bagi saya, hal penting yang harus dilakukan seorang guru adalah:",
+            "option_0": "Menyampaikan materi dengan menggunakan langkah-langkah yang berurutan secara jelas",
+            "option_1": "Memberikan gambaran keseluruhan, kemudian menghubungkan materi satu dengan yang lain"
+        }
+    },
+    {
+        "q21": {
+            "text": "Saya lebih suka belajar:",
+            "option_0": "Dalam kelompok",
+            "option_1": "Sendiri"
+        }
+    },
+    {
+        "q22": {
+            "text": "Dalam bekerja, saya cenderung:",
+            "option_0": "Berhati-hati terhadap detail dari pekerjaan saya",
+            "option_1": "Kreatif dalam mengerjakan pekerjaan saya"
+        }
+    },
+    {
+        "q23": {
+            "text": "Untuk memahami arah suatu tempat, saya lebih suka menggunakan:",
+            "option_0": "Peta",
+            "option_1": "Petunjuk tertulis"
+        }
+    },
+    {
+        "q24": {
+            "text": "Saya belajar dengan cara:",
+            "option_0": "Memastikan bahwa setiap aspek dari pekerjaan saya dilakukan dengan teliti dan akurat",
+            "option_1": "Menggunakan pendekatan kreatif dan inovatif dalam pekerjaan saya"
+        }
+    },
+    {
+        "q25": {
+            "text": "Ketika mengerjakan suatu tugas, terlebih dahulu saya akan:",
+            "option_0": "Langsung mulai bekerja pada tugas tanpa terlalu banyak perencanaan awal",
+            "option_1": "Lebih suka memikirkan dan merencanakan terlebih dahulu sebelum mulai mengerjakan tugas"
+        }
+    },
+    {
+        "q26": {
+            "text": "Saya menikmati bacaan yang ditulis oleh penulis yang:",
+            "option_0": "Secara jelas dan langsung mengungkapkan apa yang dimaksud",
+            "option_1": "Mengungkapkan hal-hal yang ingin mereka sampaikan secara kreatif dan menarik"
+        }
+    },
+    {
+        "q27": {
+            "text": "Ketika melihat diagram atau sketsa di kelas, saya paling mudah untuk mengingat:",
+            "option_0": "Gambarnya",
+            "option_1": "Penjelasannya"
+        }
+    },
+    {
+        "q28": {
+            "text": "Ketika mempertimbangkan isi suatu informasi, saya cenderung:",
+            "option_0": "Memeriksa keakuratan fakta atau detailnya",
+            "option_1": "Mengevaluasi kesesuaian dan konsistensi ide-idenya"
+        }
+    },
+    {
+        "q29": {
+            "text": "Ketika menghadiri seminar atau kuliah, saya lebih menyukai:",
+            "option_0": "Penjelasan visual seperti diagram atau grafik",
+            "option_1": "Penjelasan verbal berupa uraian atau kalimat"
+        }
+    },
+    {
+        "q30": {
+            "text": "Dalam belajar, saya lebih cenderung:",
+            "option_0": "Mempraktikkan materi yang saya pelajari",
+            "option_1": "Merenungkan dan memikirkan secara mendalam materi yang saya pelajari"
+        }
+    },
+    {
+        "q31": {
+            "text": "Ketika mengerjakan tugas, saya lebih suka:",
+            "option_0": "Langsung mulai mengerjakan tanpa terlalu banyak perencanaan awal",
+            "option_1": "Memiliki rencana yang jelas sebelum memulai pekerjaan"
+        }
+    },
+    {
+        "q32": {
+            "text": "Saya lebih suka penjelasan yang:",
+            "option_0": "Langsung dan jelas tentang bagaimana sesuatu bekerja atau berfungsi",
+            "option_1": "Menjelaskan konsep atau ide yang mendasari bagaimana sesuatu bekerja atau berfungsi"
+        }
+    },
+    {
+        "q33": {
+            "text": "Ketika membaca instruksi atau panduan, saya lebih suka:",
+            "option_0": "Instruksi yang singkat dan jelas",
+            "option_1": "Instruksi yang menyertakan alasan atau penjelasan tentang langkah-langkah yang diambil"
+        }
+    },
+    {
+        "q34": {
+            "text": "Saya lebih mudah memahami sesuatu dengan:",
+            "option_0": "Menggunakan gambar, diagram, atau grafik",
+            "option_1": "Menggunakan kata-kata atau kalimat yang menjelaskan"
+        }
+    },
+    {
+        "q35": {
+            "text": "Ketika mengerjakan tugas, saya lebih suka:",
+            "option_0": "Mengerjakan secara langsung dengan langkah-langkah yang saya tahu akan berhasil",
+            "option_1": "Mencari cara baru atau berbeda dalam mengerjakan tugas tersebut"
+        }
+    },
+    {
+        "q36": {
+            "text": "Saya lebih suka belajar dengan cara:",
+            "option_0": "Mengikuti instruksi yang jelas dan spesifik",
+            "option_1": "Menemukan sendiri cara terbaik untuk belajar"
+        }
+    },
+    {
+        "q37": {
+            "text": "Ketika membaca, saya lebih suka:",
+            "option_0": "Gambaran atau ilustrasi yang menjelaskan isi bacaan",
+            "option_1": "Deskripsi tertulis yang mendetail"
+        }
+    },
+    {
+        "q38": {
+            "text": "Saya merasa lebih nyaman ketika belajar:",
+            "option_0": "Menggunakan contoh-contoh nyata atau praktis",
+            "option_1": "Menggunakan teori atau konsep abstrak"
+        }
+    },
+    {
+        "q39": {
+            "text": "Saya lebih suka mengerjakan tugas dengan cara:",
+            "option_0": "Mencoba dan melakukan percobaan",
+            "option_1": "Memikirkan dan merencanakan secara matang sebelum mulai bekerja"
+        }
+    },
+    {
+        "q40": {
+            "text": "Ketika dosen menjelaskan materi menggunakan visual seperti gambar atau grafik, saya merasa:",
+            "option_0": "Terbantu dalam memahami arah pembelajaran",
+            "option_1": "Terhambat dalam memahami detail materi yang dibahas"
+        }
+    },
+    {
+        "q41": {
+            "text": "Ketika dosen mengajukan pertanyaan kepada kelas, saya lebih suka jika:",
+            "option_0": "Memberi kesempatan kepada seluruh kelas untuk berpikir dan merespons",
+            "option_1": "Segera menjawab pertanyaan tersebut"
+        }
+    },
+    {
+        "q42": {
+            "text": "Ketika menghadapi tugas atau proyek besar, saya lebih suka:",
+            "option_0": "Langsung mengerjakannya tanpa menunda-nunda",
+            "option_1": "Mempersiapkan dan merencanakan secara menyeluruh sebelum mulai mengerjakannya"
+        }
+    },
+    {
+        "q43": {
+            "text": "Saya merasa lebih nyaman ketika belajar:",
+            "option_0": "Sendiri",
+            "option_1": "Dalam kelompok"
+        }
+    },
+    {
+        "q44": {
+            "text": "Saya cenderung:",
+            "option_0": "Memperhatikan detail kecil dari tugas atau pekerjaan yang sedang saya lakukan",
+            "option_1": "Menggambarkan gambaran besar terlebih dahulu sebelum mengerjakan detail-detail kecil"
+        }
+    }
+]
