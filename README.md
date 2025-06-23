@@ -37,6 +37,8 @@ Aplikasi ini dirancang untuk mengidentifikasi **gaya belajar mahasiswa** berdasa
 ```bash
 git clone https://github.com/hanatyani/gaya-belajar-app.git
 cd gaya-belajar-app
+pip install -r requirements.txt
+python app.py
 
 
 
